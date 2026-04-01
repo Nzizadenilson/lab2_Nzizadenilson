@@ -120,4 +120,6 @@ if __name__ == "__main__":
     input("/nPress Enter to continue to quest 3")
     custom_sort_by_likes(clean_dataset)
     input("/nPress Enter to continue to quest 4")
-    search_tweets(clean_dataset, "hey")
+    keyword = input("Enter a keyword to search for: ")
+    search_tweets(clean_dataset, keyword)
+    
